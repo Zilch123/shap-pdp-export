@@ -777,3 +777,4 @@ def dependence_legacy(ind, shap_values=None, features=None, feature_names=None, 
         with warnings.catch_warnings(): # ignore expected matplotlib warnings
             warnings.simplefilter("ignore", RuntimeWarning)
             pl.show()
+            return xv, s
