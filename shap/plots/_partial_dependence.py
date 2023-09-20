@@ -192,7 +192,7 @@ def partial_dependence(ind, model, data, xmin="percentile(0)", xmax="percentile(
         if show:
             pl.show()
         else:
-            return fig,ax1
+            return fig, ax1, xs, vals
 
 
     # this is for a 2D partial dependence plot
